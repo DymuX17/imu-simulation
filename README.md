@@ -1,3 +1,3 @@
 # imu-simulation
 
-Imu simulator in Python and data reader is c++
+This code simulates imu sensor.
