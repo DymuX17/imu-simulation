@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/imu-simulation.dir/main.cpp.o CMakeFiles/imu-simulation.dir/src/data_read.cpp.o -o imu-simulation 

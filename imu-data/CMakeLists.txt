@@ -1,8 +1,5 @@
-cmake_minimum_required(VERSION 3.0.0)
-
-project(imu-simulation VERSION 0.1.0 LANGUAGES C CXX)
-
-add_executable(imu-simulation main.cpp ${SOURCES})
+cmake_minimum_required(VERSION 3.1.0)
+project (imu-simulation)
 
 # prevent for in-source building
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
@@ -23,6 +20,8 @@ set(INCLUDES ${PROJECT_SOURCE_DIR}/include)
 include_directories(${INCLUDES})
 
 file(GLOB SOURCES "${PROJECT_SOURCE_DIR}/src/*")
+
+add_executable(${PROJECT_NAME} main.cpp ${SOURCES})
 
 add_custom_target(run ./main.cpp)
 add_custom_target(check valgrind ./main.cpp)
