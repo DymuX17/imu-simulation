@@ -1,3 +1,3 @@
 # imu-simulation
 
-This code simulates imu sensor (c++, python).
+This code simulates imu sensor (c++).
