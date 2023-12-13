@@ -5,5 +5,12 @@
 
 #include <iostream>
 #include <cmath>
+#include <fstream>
+#include <string>
+#include <stack>
+
+#define HZ 50
+
+void read();
 
 void licz(int a, int b);

@@ -6,4 +6,59 @@ void licz(int a, int b)
     c = a + b;
     std::cout << "Wartosc wynosi: " << c << std::endl;
 }
-// tu powinno być ciało funkcji
+
+void read()
+{
+    int i = 0, j = 0;
+    int pom;
+
+    std::string dane;
+    std::string dane_pom;
+    std::string buffor[6][1000];
+
+    std::fstream file;
+    file.open("../data.csv", std::ios::in);
+
+    std::cout << "Podaj ile sekund chcesz symulowac: ";
+    std::cin >> pom;
+
+    const int col_num = 6;
+    const int row_num = pom * HZ;
+
+    std::cout << "Liczba wierszy do symulacji to: " << row_num << "\n\n";
+
+    double tab[col_num][row_num];
+
+    if (file.good() == true)
+    {
+        std::cout << "Udalo sie otworzyc plik do odczytu\n\n";
+
+        for (j = 0; j < row_num; j++)
+        {
+
+            for (i = 0; i < col_num; i++)
+            {
+
+                if (i < 5)
+                {
+                    getline(file, dane, ',');
+                    buffor[j][i] = dane;
+                }
+                else if (i == 5)
+                {
+                    getline(file, dane, '\n');
+                    buffor[j][i] = dane;
+                }
+                else
+                {
+                    std::cout << "Blad!!!";
+                    file.close();
+                }
+
+                std::cout << "[" << j << "][" << i << "]" << buffor[j][i] << "\t";
+            }
+            std::cout << "\n";
+        }
+        file.close();
+    }
+}
