@@ -50,6 +50,9 @@ void simulation_process()
     Imu_sim imu;
 
     int k = 0;
+    int z;
+    bool value = true;
+    const int prec = 10;
     double aX, aY, aZ;
     double gX, gY, gZ;
 
@@ -119,12 +122,44 @@ void simulation_process()
         k = 0;
         std::cout << "row num: " << j << "\n";
     }
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    /*double n = 0.8137455366679891;
-    int prec = 17;
-    std::cout << ConvertDecToBin(n, prec) << "\n";
 
-    n = 6.986, prec = 5;
-    std::cout << ConvertDecToBin(n, prec);
-    */
+    do
+    {
+        if (value == true)
+        {
+            std::cout << "\t\tSIMULATION SUCCESFUL!\n"
+                      << std::endl;
+            std::cout << "Press [1] to convert to binary: " << std::endl;
+            std::cout << "Press [0] to return to menu" << std::endl;
+            value = false;
+        }
+        else
+        {
+            std::cout << "\tCONVERSION SUCCESFUL!\n"
+                      << std::endl;
+            std::cout << "Press any key to exit:";
+            std::cin >> z;
+            break;
+        }
+
+        std::cin >> z;
+        switch (z)
+        {
+        case 1:
+            for (int j = 0; j < sampleAmount; j++)
+            {
+                for (int i = 0; i < col_num; i++)
+                {
+                    std::cout << ConvertDecToBin(arrS[j][i], prec) << "\t";
+                }
+                std::cout << "\n";
+            }
+        case 0:
+            break;
+
+        default:
+            break;
+        }
+
+    } while (z != 0);
 }

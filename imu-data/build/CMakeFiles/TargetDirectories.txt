@@ -1,5 +1,0 @@
-/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles/imu-simulation.dir
-/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles/run.dir
-/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles/check.dir
-/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles/rebuild_cache.dir

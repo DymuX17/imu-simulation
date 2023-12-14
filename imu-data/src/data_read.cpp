@@ -5,6 +5,10 @@ void read()
     int i = 0, j = 0;
     int pom;
 
+    int z;
+    bool value = true;
+    const int prec = 10;
+
     std::string dane;
     std::string dane_pom;
     std::string dane_pom2;
@@ -63,4 +67,44 @@ void read()
         }
         file.close();
     }
+
+    do
+    {
+        if (value == true)
+        {
+            std::cout << "\t\tSIMULATION SUCCESFUL!\n"
+                      << std::endl;
+            std::cout << "Press [1] to convert to binary: " << std::endl;
+            std::cout << "Press [0] to exit" << std::endl;
+            value = false;
+        }
+        else
+        {
+            std::cout << "\tCONVERSION SUCCESFUL!\n"
+                      << std::endl;
+            std::cout << "Press any key to exit:";
+            std::cin >> z;
+            break;
+        }
+
+        std::cin >> z;
+        switch (z)
+        {
+        case 1:
+            for (int j = 0; j < row_num; j++)
+            {
+                for (int i = 0; i < col_num; i++)
+                {
+                    std::cout << ConvertDecToBin(arr[j][i], prec) << "\t";
+                }
+                std::cout << "\n";
+            }
+        case 0:
+            break;
+
+        default:
+            break;
+        }
+
+    } while (z != 0);
 }

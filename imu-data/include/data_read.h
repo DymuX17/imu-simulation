@@ -14,8 +14,6 @@
 
 void read();
 
-void convert();
-
 std::string ConvertDecToBin(double num, int prec);
 
 class Imu_sim;
