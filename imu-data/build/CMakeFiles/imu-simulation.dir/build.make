@@ -83,10 +83,24 @@ CMakeFiles/imu-simulation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu-simulation.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/main.cpp -o CMakeFiles/imu-simulation.dir/main.cpp.s
 
+CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o: CMakeFiles/imu-simulation.dir/flags.make
+CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o: ../src/conversion_data.cpp
+CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o: CMakeFiles/imu-simulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o -MF CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o.d -o CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o -c /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/conversion_data.cpp
+
+CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/conversion_data.cpp > CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.i
+
+CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/conversion_data.cpp -o CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.s
+
 CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: CMakeFiles/imu-simulation.dir/flags.make
 CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: ../src/data_read.cpp
 CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: CMakeFiles/imu-simulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imu-simulation.dir/src/data_read.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imu-simulation.dir/src/data_read.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu-simulation.dir/src/data_read.cpp.o -MF CMakeFiles/imu-simulation.dir/src/data_read.cpp.o.d -o CMakeFiles/imu-simulation.dir/src/data_read.cpp.o -c /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/data_read.cpp
 
 CMakeFiles/imu-simulation.dir/src/data_read.cpp.i: cmake_force
@@ -97,19 +111,53 @@ CMakeFiles/imu-simulation.dir/src/data_read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu-simulation.dir/src/data_read.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/data_read.cpp -o CMakeFiles/imu-simulation.dir/src/data_read.cpp.s
 
+CMakeFiles/imu-simulation.dir/src/input_info.cpp.o: CMakeFiles/imu-simulation.dir/flags.make
+CMakeFiles/imu-simulation.dir/src/input_info.cpp.o: ../src/input_info.cpp
+CMakeFiles/imu-simulation.dir/src/input_info.cpp.o: CMakeFiles/imu-simulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imu-simulation.dir/src/input_info.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu-simulation.dir/src/input_info.cpp.o -MF CMakeFiles/imu-simulation.dir/src/input_info.cpp.o.d -o CMakeFiles/imu-simulation.dir/src/input_info.cpp.o -c /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/input_info.cpp
+
+CMakeFiles/imu-simulation.dir/src/input_info.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu-simulation.dir/src/input_info.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/input_info.cpp > CMakeFiles/imu-simulation.dir/src/input_info.cpp.i
+
+CMakeFiles/imu-simulation.dir/src/input_info.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu-simulation.dir/src/input_info.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/input_info.cpp -o CMakeFiles/imu-simulation.dir/src/input_info.cpp.s
+
+CMakeFiles/imu-simulation.dir/src/simulator.cpp.o: CMakeFiles/imu-simulation.dir/flags.make
+CMakeFiles/imu-simulation.dir/src/simulator.cpp.o: ../src/simulator.cpp
+CMakeFiles/imu-simulation.dir/src/simulator.cpp.o: CMakeFiles/imu-simulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imu-simulation.dir/src/simulator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu-simulation.dir/src/simulator.cpp.o -MF CMakeFiles/imu-simulation.dir/src/simulator.cpp.o.d -o CMakeFiles/imu-simulation.dir/src/simulator.cpp.o -c /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/simulator.cpp
+
+CMakeFiles/imu-simulation.dir/src/simulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu-simulation.dir/src/simulator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/simulator.cpp > CMakeFiles/imu-simulation.dir/src/simulator.cpp.i
+
+CMakeFiles/imu-simulation.dir/src/simulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu-simulation.dir/src/simulator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/simulator.cpp -o CMakeFiles/imu-simulation.dir/src/simulator.cpp.s
+
 # Object files for target imu-simulation
 imu__simulation_OBJECTS = \
 "CMakeFiles/imu-simulation.dir/main.cpp.o" \
-"CMakeFiles/imu-simulation.dir/src/data_read.cpp.o"
+"CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o" \
+"CMakeFiles/imu-simulation.dir/src/data_read.cpp.o" \
+"CMakeFiles/imu-simulation.dir/src/input_info.cpp.o" \
+"CMakeFiles/imu-simulation.dir/src/simulator.cpp.o"
 
 # External object files for target imu-simulation
 imu__simulation_EXTERNAL_OBJECTS =
 
 imu-simulation: CMakeFiles/imu-simulation.dir/main.cpp.o
+imu-simulation: CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o
 imu-simulation: CMakeFiles/imu-simulation.dir/src/data_read.cpp.o
+imu-simulation: CMakeFiles/imu-simulation.dir/src/input_info.cpp.o
+imu-simulation: CMakeFiles/imu-simulation.dir/src/simulator.cpp.o
 imu-simulation: CMakeFiles/imu-simulation.dir/build.make
 imu-simulation: CMakeFiles/imu-simulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imu-simulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable imu-simulation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imu-simulation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

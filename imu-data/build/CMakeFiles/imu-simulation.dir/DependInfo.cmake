@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/main.cpp" "CMakeFiles/imu-simulation.dir/main.cpp.o" "gcc" "CMakeFiles/imu-simulation.dir/main.cpp.o.d"
+  "/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/conversion_data.cpp" "CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o" "gcc" "CMakeFiles/imu-simulation.dir/src/conversion_data.cpp.o.d"
   "/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/data_read.cpp" "CMakeFiles/imu-simulation.dir/src/data_read.cpp.o" "gcc" "CMakeFiles/imu-simulation.dir/src/data_read.cpp.o.d"
+  "/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/input_info.cpp" "CMakeFiles/imu-simulation.dir/src/input_info.cpp.o" "gcc" "CMakeFiles/imu-simulation.dir/src/input_info.cpp.o.d"
+  "/mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/simulator.cpp" "CMakeFiles/imu-simulation.dir/src/simulator.cpp.o" "gcc" "CMakeFiles/imu-simulation.dir/src/simulator.cpp.o.d"
   )
 
 # Targets to which this target links.
