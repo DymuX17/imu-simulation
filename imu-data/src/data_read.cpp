@@ -14,7 +14,7 @@ void read()
 
     std::string dane;
     std::string dane_pom;
-    std::string buffor[6][1000];
+    std::string dane_pom2;
 
     std::fstream file;
     file.open("../data.csv", std::ios::in);
@@ -24,14 +24,23 @@ void read()
 
     const int col_num = 6;
     const int row_num = pom * HZ;
+    const int arr_num = col_num * row_num;
+
+    double **arr;
+    arr = new double *[row_num];
+
+    for (i = 0; i < row_num; i++)
+    {
+        arr[i] = new double[col_num];
+    }
 
     std::cout << "Liczba wierszy do symulacji to: " << row_num << "\n\n";
-
-    double tab[col_num][row_num];
 
     if (file.good() == true)
     {
         std::cout << "Udalo sie otworzyc plik do odczytu\n\n";
+
+        getline(file, dane_pom2, '\n');
 
         for (j = 0; j < row_num; j++)
         {
@@ -42,12 +51,12 @@ void read()
                 if (i < 5)
                 {
                     getline(file, dane, ',');
-                    buffor[j][i] = dane;
+                    arr[j][i] = stod(dane);
                 }
                 else if (i == 5)
                 {
                     getline(file, dane, '\n');
-                    buffor[j][i] = dane;
+                    arr[j][i] = stod(dane);
                 }
                 else
                 {
@@ -55,7 +64,7 @@ void read()
                     file.close();
                 }
 
-                std::cout << "[" << j << "][" << i << "]" << buffor[j][i] << "\t";
+                std::cout << "[" << j << "][" << i << "]: " << arr[j][i] << "\t";
             }
             std::cout << "\n";
         }

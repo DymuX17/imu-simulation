@@ -196,17 +196,6 @@ CMakeFiles/imu-simulation.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
  /usr/include/c++/11/bits/fstream.tcc
- /usr/include/curses.h
- /usr/include/ncurses_dll.h
- /usr/include/unctrl.h
- /usr/include/curses.h
- /usr/include/c++/11/stack
- /usr/include/c++/11/deque
- /usr/include/c++/11/bits/stl_uninitialized.h
- /usr/include/c++/11/bits/stl_deque.h
- /usr/include/c++/11/bits/deque.tcc
- /usr/include/c++/11/bits/stl_stack.h
- /usr/include/c++/11/bits/uses_allocator.h
 
 CMakeFiles/imu-simulation.dir/src/data_read.cpp.o
  /mnt/c/Users/patri/Repozytorium/imu-simulation/imu-data/src/data_read.cpp
@@ -403,15 +392,4 @@ CMakeFiles/imu-simulation.dir/src/data_read.cpp.o
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
  /usr/include/c++/11/bits/fstream.tcc
- /usr/include/curses.h
- /usr/include/ncurses_dll.h
- /usr/include/unctrl.h
- /usr/include/curses.h
- /usr/include/c++/11/stack
- /usr/include/c++/11/deque
- /usr/include/c++/11/bits/stl_uninitialized.h
- /usr/include/c++/11/bits/stl_deque.h
- /usr/include/c++/11/bits/deque.tcc
- /usr/include/c++/11/bits/stl_stack.h
- /usr/include/c++/11/bits/uses_allocator.h
 

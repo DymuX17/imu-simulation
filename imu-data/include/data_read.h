@@ -7,7 +7,6 @@
 #include <cmath>
 #include <fstream>
 #include <string>
-#include <stack>
 
 #define HZ 50
 

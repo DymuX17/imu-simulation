@@ -194,18 +194,7 @@ CMakeFiles/imu-simulation.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/curses.h \
-  /usr/include/ncurses_dll.h \
-  /usr/include/unctrl.h \
-  /usr/include/curses.h \
-  /usr/include/c++/11/stack \
-  /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_deque.h \
-  /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_stack.h \
-  /usr/include/c++/11/bits/uses_allocator.h
+  /usr/include/c++/11/bits/fstream.tcc
 
 CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: ../src/data_read.cpp \
   /usr/include/stdc-predef.h \
@@ -400,31 +389,8 @@ CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: ../src/data_read.cpp \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/curses.h \
-  /usr/include/ncurses_dll.h \
-  /usr/include/unctrl.h \
-  /usr/include/curses.h \
-  /usr/include/c++/11/stack \
-  /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_deque.h \
-  /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_stack.h \
-  /usr/include/c++/11/bits/uses_allocator.h
+  /usr/include/c++/11/bits/fstream.tcc
 
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/bits/stl_stack.h:
-
-/usr/include/c++/11/bits/stl_deque.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/unctrl.h:
-
-/usr/include/ncurses_dll.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -608,11 +574,7 @@ CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: ../src/data_read.cpp \
 
 /usr/include/stdc-predef.h:
 
-/usr/include/c++/11/stack:
-
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/11/deque:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -752,8 +714,6 @@ CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: ../src/data_read.cpp \
 
 /usr/include/c++/11/bits/ios_base.h:
 
-/usr/include/curses.h:
-
 ../include/data_read.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -799,8 +759,6 @@ CMakeFiles/imu-simulation.dir/src/data_read.cpp.o: ../src/data_read.cpp \
 /usr/include/c++/11/cmath:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
